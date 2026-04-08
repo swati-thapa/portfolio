@@ -2,85 +2,60 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Swati's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "I’m an Sr. AI/ML engineer with a strong applied research background, combining engineering and scientific thinking. I build end to end systems and focus on scalable, reliable solutions that create real impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Swati Thapa Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://SwatiThapa.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Swati Thapa",
+  logo_name: "SwatiThapa",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "I’m an AI/ML engineer with a strong applied research background, combining engineering and scientific thinking. I build end to end systems and focus on scalable, reliable solutions that create real impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1j8gfPO_y-rdT1CPcS_mnOaxLo1xMPKAr/view?usp=sharing",
+  // portfolio_repository: "https://github.com/Swati1919/masterPortfolio",
+  githubProfile: "https://github.com/swati-thapa",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
+  // github: "https://github.com/Swati1919",
+  // linkedin: "https://www.linkedin.com/in/swati-t-296606a0/",
+  // gmail: "SwatiThapa98@gmail.com",
+  // gitlab: "https://gitlab.com/SwatiThapa98",
   // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
+  // twitter: "https://twitter.com/Swati_1919",
   // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/swati-thapa",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/swati-t-296606a0/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:swatithapa019@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -89,10 +64,13 @@ const skills = {
     {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
+      imagePath: "data_science.svg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Building end-to-end AI systems that translate data into real-world impact",
+        "⚡ Designing LLM-powered applications with a focus on reliability, retrieval quality, and grounded responses",
+        "⚡ Creating scalable systems that balance performance, cost, and production constraints",
+        "⚡ Embedding trust into AI through safety, bias evaluation, and data privacy practices",
+        "⚡ Turning complex machine learning concepts into simple, usable products",
       ],
       softwareSkills: [
         {
@@ -131,96 +109,98 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "Full Stack Development",
+    //   fileName: "FullStackImg",
+    //   skills: [
+    //     "⚡ Building responsive website front end using React-Redux",
+    //     "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+    //     "⚡ Creating application backend in Node, Express & Flask",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "HTML5",
+    //       fontAwesomeClassname: "simple-icons:html5",
+    //       style: {
+    //         color: "#E34F26",
+    //       },
+    //     },
+    //     {
+    //       skillName: "CSS3",
+    //       fontAwesomeClassname: "fa-css3",
+    //       style: {
+    //         color: "#1572B6",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Sass",
+    //       fontAwesomeClassname: "simple-icons:sass",
+    //       style: {
+    //         color: "#CC6699",
+    //       },
+    //     },
+    //     {
+    //       skillName: "JavaScript",
+    //       fontAwesomeClassname: "simple-icons:javascript",
+    //       style: {
+    //         backgroundColor: "#000000",
+    //         color: "#F7DF1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "ReactJS",
+    //       fontAwesomeClassname: "simple-icons:react",
+    //       style: {
+    //         color: "#61DAFB",
+    //       },
+    //     },
+    //     {
+    //       skillName: "NodeJS",
+    //       fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
+    //       style: {
+    //         color: "#339933",
+    //       },
+    //     },
+    //     {
+    //       skillName: "NPM",
+    //       fontAwesomeClassname: "simple-icons:npm",
+    //       style: {
+    //         color: "#CB3837",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Yarn",
+    //       fontAwesomeClassname: "simple-icons:yarn",
+    //       style: {
+    //         color: "#2C8EBB",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Gatsby",
+    //       fontAwesomeClassname: "simple-icons:gatsby",
+    //       style: {
+    //         color: "#663399",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Flutter",
+    //       fontAwesomeClassname: "simple-icons:flutter",
+    //       style: {
+    //         color: "#02569B",
+    //       },
+    //     },
+    //   ],
+    // },
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
+      imagePath: "cloud_infrastructure.svg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Architecting cloud-native systems to support large-scale AI and LLM applications",
+        "⚡ Building distributed pipelines for data ingestion, processing, and model evaluation",
+        "⚡ Designing infrastructure that enables low-latency, scalable inference in production",
+        "⚡ Managing containerized services and orchestration for resilient deployments",
+        "⚡ Integrating storage, compute, and messaging systems for end-to-end AI workflows",
       ],
       softwareSkills: [
         {
@@ -280,46 +260,141 @@ const skills = {
           },
         },
       ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+      techStackTitle: "My Tech Stack",
+      techStack: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "logos-python",
+        },
+        {
+          skillName: "SQL",
+          fontAwesomeClassname: "carbon:sql",
+        },
+        {
+          skillName: "HTML",
+          fontAwesomeClassname: "logos-html-5",
+        },
+        {
+          skillName: "CSS",
+          fontAwesomeClassname: "logos-css-3",
+        },
+        {
+          skillName: "LangGraph",
+          fontAwesomeClassname: "simple-icons:langgraph",
+        },
+        {
+          skillName: "LangChain",
+          fontAwesomeClassname: "simple-icons:langchain",
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "logos:docker-icon",
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "logos:kubernetes",
+        },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "mdi:github",
+        },
+        {
+          skillName: "Tableau",
+          fontAwesomeClassname: "logos:tableau-icon",
+        },
+        {
+          skillName: "AWS Cloud",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+        },
+        {
+          skillName: "Heroku",
+          fontAwesomeClassname: "logos:heroku",
+        },
+        {
+          skillName: "OpenAI",
+          fontAwesomeClassname: "simple-icons:openai",
+        },
+        {
+          skillName: "Pandas",
+          fontAwesomeClassname: "simple-icons:pandas",
+        },
+        {
+          skillName: "NumPy",
+          fontAwesomeClassname: "simple-icons:numpy",
+        },
+        {
+          skillName: "SciPy",
+          fontAwesomeClassname: "simple-icons:scipy",
+        },
+        {
+          skillName: "scikit-learn",
+          fontAwesomeClassname: "simple-icons:scikitlearn",
+        },
+        {
+          skillName: "TensorFlow",
+          fontAwesomeClassname: "logos-tensorflow",
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+        },
+        {
+          skillName: "Databricks",
+          fontAwesomeClassname: "simple-icons:databricks",
+        },
+        {
+          skillName: "Airflow",
+          fontAwesomeClassname: "simple-icons:apacheairflow",
+        },
+        {
+          skillName: "MLflow",
+          fontAwesomeClassname: "simple-icons:mlflow",
+        },
       ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
     },
+    // {
+    //   title: "UI/UX Design",
+    //   fileName: "DesignImg",
+    //   skills: [
+    //     "⚡ Designing highly attractive user interface for mobile and web applications",
+    //     "⚡ Customizing logo designs and building logos from scratch",
+    //     "⚡ Creating the flow of application functionalities to optimize user experience",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Adobe XD",
+    //       fontAwesomeClassname: "simple-icons:adobexd",
+    //       style: {
+    //         color: "#FF2BC2",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Figma",
+    //       fontAwesomeClassname: "simple-icons:figma",
+    //       style: {
+    //         color: "#F24E1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Adobe Illustrator",
+    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //       style: {
+    //         color: "#FF7C00",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Inkscape",
+    //       fontAwesomeClassname: "simple-icons:inkscape",
+    //       style: {
+    //         color: "#000000",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -348,7 +423,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/users/Swati_1919",
     },
     {
       siteName: "Codeforces",
@@ -364,7 +439,7 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.hackerearth.com/@Swati391",
     },
     {
       siteName: "Kaggle",
@@ -380,30 +455,22 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
-      descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
-      ],
-      website_link: "http://iiitk.ac.in",
+      title: "Queen Mary University of London",
+      subtitle: "M.S in Big Data Science",
+      logo_path: "qmul.png",
+      alt_name: "QMUL",
+      duration: "2021 - 2022",
+      descriptions: [],
+      //website_link: "http://iiitk.ac.in",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
+      title: "Ghousia College of Engineering (VTU)",
+      subtitle: "B.E in Electronic and Communications",
+      logo_path: "VTU.png",
+      alt_name: "Ghousia College of Engineering (VTU)",
+      duration: "2012 - 2016",
+      descriptions: [],
+      //website_link: "https://www.indiana.edu/",
     },
   ],
 };
@@ -524,9 +591,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "Worked across evolving startups and established companies as an AI and machine learning engineer and scientist, contributing to development, design, and system architecture. Experience includes building scalable solutions from early-stage ideas to production systems with real-world impact, guided by a strong research-driven approach. Also volunteer with open-source communities, supporting events and collaborative initiatives.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -534,87 +601,48 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "AI/ML Engineer",
+          company: "eBS Minds IT Inc ",
+          // company_url: "https://www.tiktok.com/en/",
+          logo_path: "ebs.jpeg",
+          duration: "March 2025 - Present",
+          location: "Remote, USA",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "Worked on building production-grade LLM systems using RAG architectures with hybrid retrieval and re-ranking over vector databases like FAISS and Pinecone. Designed context engineering pipelines with advanced chunking, metadata-aware retrieval, and query rewriting to improve retrieval quality. Developed a scalable LLM evaluation framework for bias, safety, and hallucination detection, along with a distributed scoring engine using SQS, S3, and API orchestration to process model telemetry and generate governance-ready outputs.",
           color: "#000000",
         },
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Machine Learning Scientist - II",
+          company: "Expedia Group",
+          // company_url: "https://legatohealthtech.com/",
+          logo_path: "Expedia_Group_Logo.png",
+          duration: "Sep 2022 - Oct 2024",
+          location: "London, UK",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "Worked on machine learning systems for pricing and customer segmentation using behavioral and market signals, including building clustering models to enable targeted strategies. Designed A/B experiments to measure impact and guide decisions, and developed a custom LLM system on private enterprise data deployed on AWS for internal knowledge retrieval, supported by real-time ETL pipelines for analytics and reporting.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Machine Learning Engineer",
+          company: "Apsis Solutions",
+          // company_url: "https://www.linkedin.com/company/muffito-inc/about/",
+          logo_path: "apsis_solutions_logo.jpeg",
+          duration: "Feb 2020 - Feb 2021",
+          location: "Bengaluru, IN",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "Built a clustering-based machine learning model for driving analytics, predicting vehicle behavior patterns to reduce maintenance costs. Designed a telematics data pipeline processing signals from 500+ vehicles, transforming raw sensor data into structured features to identify key cost drivers and improve fleet efficiency.",
           color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Data Science Consultant",
+          company: "Rubixe",
+          // company_url: "https://www.linkedin.com/company/freecopy/about/",
+          logo_path: "rubixe_logo.jpeg",
+          duration: "Nov 2016 - Feb 2020",
+          location: "Bengaluru, IN",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+            "Worked on end-to-end data science workflows including exploratory analysis, feature engineering, and predictive modeling. Built classification models for lead scoring and developed systems to analyze ITSM data for incident prediction, volume forecasting, and automated ticket tagging using SQL-driven data pipelines.",
           color: "#fc1f20",
-        },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-          color: "#000000",
-        },
-        {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
         },
       ],
     },
@@ -622,60 +650,15 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          title: "Machine Learning Engineer",
+          company: "Omdena",
+          // company_url: "https://about.google/",
+          logo_path: "omdena.png",
+          duration: "Feb 2025 - April 2025",
+          location: "Remote,USA",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+            "Built an AI-powered route optimization system using geospatial data, combining road network modeling with constraint-based optimization to improve travel efficiency for field agents. Designed geocoding pipelines to clean and enrich location data, and applied clustering techniques to balance workloads across regions. Also developed a scalable distance computation framework that incorporated real-world constraints like traffic and schedules to enable more reliable route planning.",
           color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
         },
       ],
     },
@@ -686,7 +669,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "I enjoy building end-to-end AI-powered systems and turning them into real-world applications using modern tools, scalable systems, and cloud platforms.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -726,16 +709,15 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "swati.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Pretty active across platforms, so feel free to reach out anytime. Happy to chat about AI, ML, cloud systems, or anything tech. Always open to helping or collaborating.",
   },
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
+    subtitle: "Documenting experiences and sharing technical learnings",
+    link: "https://medium.com/@swatithapa019",
+    avatar_image_path: "blogs_images.png",
   },
   addressSection: {
     title: "Address",

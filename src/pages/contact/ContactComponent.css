@@ -39,6 +39,7 @@
 }
 
 .blog-heading-img-div {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -63,6 +64,12 @@
 .blog-heading-img-div > * {
   max-width: 100%;
   height: auto;
+}
+
+.blog-heading-photo {
+  width: 125%;
+  max-width: none;
+  mix-blend-mode: multiply;
 }
 
 .contact-heading-text {
@@ -157,6 +164,11 @@
   .blog-heading-div {
     flex-direction: column-reverse;
     margin-top: 60px;
+  }
+
+  .blog-heading-photo {
+    width: 100%;
+    max-width: 100%;
   }
 
   .address-heading-div {

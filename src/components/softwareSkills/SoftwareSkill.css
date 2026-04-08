@@ -23,5 +23,8 @@
 }
 
 .skill-image {
+  width: 48px;
   height: 48px;
+  object-fit: contain;
+  display: block;
 }

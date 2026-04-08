@@ -12,11 +12,7 @@ class DegreeCard extends Component {
           <Flip left duration={2000}>
             <div className="card-img">
               <img
-                style={{
-                  maxWidth: "100%",
-                  maxHeight: "100%",
-                  transform: "scale(0.9)",
-                }}
+                className="card-img-inner"
                 src={require(`../../assets/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
               />
@@ -46,31 +42,33 @@ class DegreeCard extends Component {
                 </h3>
               </div>
             </div>
-            <div className="body-content">
-              {degree.descriptions.map((sentence) => {
-                return (
-                  <p className="content-list" style={{ color: theme.text }}>
-                    {sentence}
-                  </p>
-                );
-              })}
-              {degree.website_link && (
-                <a
-                  href={degree.website_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div
-                    className="visit-btn"
-                    style={{ backgroundColor: theme.headerColor }}
-                  >
-                    <p className="btn" style={{ color: theme.text }}>
-                      Visit Website
+            {degree.descriptions.length > 0 ? (
+              <div className="body-content">
+                {degree.descriptions.map((sentence) => {
+                  return (
+                    <p className="content-list" style={{ color: theme.text }}>
+                      {sentence}
                     </p>
-                  </div>
-                </a>
-              )}
-            </div>
+                  );
+                })}
+                {/* {degree.website_link && (
+                  <a
+                    href={degree.website_link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <div
+                      className="visit-btn"
+                      style={{ backgroundColor: theme.headerColor }}
+                    >
+                      <p className="btn" style={{ color: theme.text }}>
+                        Visit Website
+                      </p>
+                    </div>
+                  </a>
+                )} */}
+              </div>
+            ) : null}
           </div>
         </Fade>
       </div>

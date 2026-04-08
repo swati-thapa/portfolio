@@ -8,6 +8,10 @@ class ExperienceCard extends Component {
     const index = this.props.index;
     const totalCards = this.props.totalCards;
     const theme = this.props.theme;
+    const logoClassName =
+      experience["logo_path"] === "Expedia_Group_Logo.png"
+        ? "experience-card-logo experience-card-logo-expedia"
+        : "experience-card-logo";
     return (
       <div
         className="experience-list-item"
@@ -16,7 +20,7 @@ class ExperienceCard extends Component {
         <Fade left duration={2000} distance="40px">
           <div className="experience-card-logo-div">
             <img
-              className="experience-card-logo"
+              className={logoClassName}
               src={require(`../../assets/images/${experience["logo_path"]}`)}
               alt=""
             />
@@ -106,7 +110,12 @@ class ExperienceCard extends Component {
                 }}
               >
                 <div className="repo-description" />
-                {experience["description"]}
+                <p
+                  className="experience-card-description"
+                  style={{ color: theme.text }}
+                >
+                  {experience["description"]}
+                </p>
               </div>
             </div>
           </div>

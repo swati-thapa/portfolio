@@ -2,10 +2,10 @@
   "data": [
     {
       "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "name": "Youtube chatbot chrome extension",
+      "createdAt": "Aug-2025",
+      "url": "https://github.com/swati-thapa/Youtube_chatbot_chrome_extension",
+      "description": "A Chrome extension to ask questions about YouTube videos and get instant AI-powered answers.",
       "isFork": false,
       "languages": [
         {
@@ -13,61 +13,65 @@
           "iconifyClass": "logos-python"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
+          "name": "LangGraph",
+          "iconifyClass": "simple-icons:langgraph"
         }
       ]
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "name": "Game control by hand gensture",
+      "createdAt": "Nov-2020",
+      "url": "https://github.com/swati-thapa/Game-control-by-hand-gesture-using-OpenCV-and-Deep-Learning",
+      "description": "Used hand gestures to control game movement",
       "isFork": false,
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "OpenCV",
+          "iconifyClass": "logos:opencv"
         }
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "name": "Crop Damage Prediction",
+      "createdAt": "Oct-2020",
+      "url": "https://github.com/swati-thapa/End-to-end-crop-damage-prediction",
+      "description": "Built a crop damage prediction model using data from AWS RDS and deployed it with Flask on EC2 using Docker.",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "AWS RDS (PostgreSQL)",
+          "iconifyClass": "logos:aws-rds"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Flask",
+          "iconifyClass": "simple-icons:flask"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
         },
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "AWS EC2",
+          "iconifyClass": "logos:aws-ec2"
         }
       ]
     },
     {
       "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "name": "Simpsons-Character-blur-image-classification",
+      "createdAt": "Sep-2020",
+      "url": "https://github.com/swati-thapa/Simpsons-Character-blur-image-classification",
+      "description": "Built and deployed an image classifier for 10 Simpsons characters (clear and blurry)",
       "isFork": false,
       "languages": [
         {
@@ -75,48 +79,52 @@
           "iconifyClass": "logos-html-5"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Heroku",
+          "iconifyClass": "logos:heroku"
         }
       ]
     },
     {
       "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "name": "Types of Forest",
+      "createdAt": "Aug-2020",
+      "url": "https://github.com/swati-thapa/Types-of-Forest",
+      "description": "Built a model to classify 7 forest cover types from environmental features and deployed it on Heroku.",
       "isFork": false,
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
+        },
+        {
+          "name": "Heroku",
+          "iconifyClass": "logos:heroku"
         }
       ]
     },
     {
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
+      "name": "Agriculture Insight",
+      "createdAt": "Oct-2021",
+      "url": "https://github.com/swati-thapa/Agriculture-Analysis",
+      "description": "Analyzed agricultural data using Tableau and built interactive dashboards for better visualization.",
       "isFork": false,
       "languages": [
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Tableau",
+          "iconifyClass": "logos:tableau-icon"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Python",
+          "iconifyClass": "logos-python"
         }
       ]
     }
