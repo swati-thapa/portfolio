@@ -57,7 +57,15 @@ export default class Main extends Component {
             )}
           /> */}
           <Route
+            path="/experience-education"
+            exact
+            render={(props) => (
+              <Education {...props} theme={this.props.theme} />
+            )}
+          />
+          <Route
             path="/education"
+            exact
             render={(props) => (
               <Education {...props} theme={this.props.theme} />
             )}
