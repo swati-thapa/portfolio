@@ -1,19 +1,21 @@
 import React, { Component } from "react";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
+import { getImageUrl } from "../../utils/imageLoader";
 
 class DegreeCard extends Component {
   render() {
     const degree = this.props.degree;
     const theme = this.props.theme;
+    const logoUrl = getImageUrl(degree.logo_path);
     return (
       <div className="degree-card">
-        {degree.logo_path && (
+        {logoUrl && (
           <Flip left duration={2000}>
             <div className="card-img">
               <img
                 className="card-img-inner"
-                src={require(`../../assets/images/${degree.logo_path}`)}
+                src={logoUrl}
                 alt={degree.alt_name}
               />
             </div>

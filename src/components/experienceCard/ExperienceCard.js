@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./ExperienceCard.css";
 import { Fade } from "react-reveal";
+import { getImageUrl } from "../../utils/imageLoader";
 
 class ExperienceCard extends Component {
   render() {
@@ -8,6 +9,7 @@ class ExperienceCard extends Component {
     const index = this.props.index;
     const totalCards = this.props.totalCards;
     const theme = this.props.theme;
+    const logoUrl = getImageUrl(experience["logo_path"]);
     const logoClassName =
       experience["logo_path"] === "Expedia_Group_Logo.png"
         ? "experience-card-logo experience-card-logo-expedia"
@@ -19,11 +21,9 @@ class ExperienceCard extends Component {
       >
         <Fade left duration={2000} distance="40px">
           <div className="experience-card-logo-div">
-            <img
-              className={logoClassName}
-              src={require(`../../assets/images/${experience["logo_path"]}`)}
-              alt=""
-            />
+            {logoUrl ? (
+              <img className={logoClassName} src={logoUrl} alt="" />
+            ) : null}
           </div>
         </Fade>
         <div className="experience-card-stepper">

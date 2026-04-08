@@ -7,6 +7,7 @@ import ExperienceAccordion from "../../containers/experienceAccordion/Experience
 // import Certifications from "../../containers/certifications/Certifications";
 import EducationImg from "./EducationImg";
 import { experience } from "../../portfolio";
+import { getImageUrl } from "../../utils/imageLoader";
 // import { certifications } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
@@ -14,6 +15,7 @@ import { Fade } from "react-reveal";
 class Education extends Component {
   render() {
     const theme = this.props.theme;
+    const experienceHeaderImage = getImageUrl(experience["header_image_path"]);
     return (
       <div className="education-main">
         <Header theme={this.props.theme} />
@@ -23,10 +25,9 @@ class Education extends Component {
             <Fade bottom duration={2000} distance="40px">
               <div className="experience-heading-div">
                 <div className="experience-heading-img-div">
-                  <img
-                    src={require(`../../assets/images/${experience["header_image_path"]}`)}
-                    alt="Experience"
-                  />
+                  {experienceHeaderImage ? (
+                    <img src={experienceHeaderImage} alt="Experience" />
+                  ) : null}
                 </div>
                 <div className="experience-heading-text-div">
                   <h1
