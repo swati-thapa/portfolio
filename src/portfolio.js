@@ -605,7 +605,7 @@ const experience = {
           company: "eBS Minds IT Inc ",
           // company_url: "https://www.tiktok.com/en/",
           logo_path: "ebs.jpeg",
-          duration: "March 2025 - Present",
+          duration: "April 2025 - Present",
           location: "Remote, USA",
           description:
             "Worked on building production-grade LLM systems using RAG architectures with hybrid retrieval and re-ranking over vector databases like FAISS and Pinecone. Designed context engineering pipelines with advanced chunking, metadata-aware retrieval, and query rewriting to improve retrieval quality. Developed a scalable LLM evaluation framework for bias, safety, and hallucination detection, along with a distributed scoring engine using SQS, S3, and API orchestration to process model telemetry and generate governance-ready outputs.",
